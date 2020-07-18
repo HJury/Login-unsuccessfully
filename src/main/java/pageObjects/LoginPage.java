@@ -12,6 +12,10 @@ public class LoginPage {
     WebDriver driver;
     UserActions userActions;
 
+    /**
+     * Constructor
+     * @param driver The webDriver instance that comes from the Hook class
+     */
     public LoginPage(WebDriver driver) {
         this.driver = driver;
         this.userActions = new UserActions(driver);
