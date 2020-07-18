@@ -10,6 +10,7 @@ This project has 4 abstraction layers called:
 *	StepDefinitions
 *	Tasks
 *	Page Object
+
 Each layer has a higher detail level than the former to make it easier to give maintain to the code.
 
 # You need
@@ -17,7 +18,7 @@ In order to run your tests, you will need:
 *	Java 1.8 (Don't forget to add java to environment variables)
 *	Chrome 84.0.4148.xx
 *	Firefox 78.0.2
-*   Maven
+*   	Maven
 
 # Feature 
 The feature is located on: 
